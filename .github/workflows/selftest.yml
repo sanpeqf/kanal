@@ -16,6 +16,6 @@ jobs:
     - name: make
       run:  make
     - name: selftest
-      run:  ./kanal ./sefltest/System.map
+      run:  ./kanal ./selftest/System.map
     - name: make clean
       run:  make clean
